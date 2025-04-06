@@ -7,7 +7,7 @@ main{
   text-decoration: none !important;
   font-weight: 500 !important;
 }
-.heading-text, .headline, .card-title, .headline-2, .headline-3, .number, .headline-4{
+.heading-text, .headline, .card-title, .headline-2, .headline-3, .number, .headline-4, .headline-5{
   color:#4D4D4D !important;
 }
 
@@ -74,7 +74,7 @@ ul{
   .btn-2{
     font-size: .5rem !important;
   }
-  .headline-2, .headline-3, .headline-4 ,.heading-text, .headline{
+  .headline-2, .headline-3, .headline-4 ,.heading-text, .headline, .headline-5{
     font-size: 1.5625rem;
     line-height: 1.75rem;
     font-weight: 600;
@@ -121,7 +121,11 @@ ul{
     font-weight: 600;
     line-height: 2.75rem;
   }
-  
+  .headline-5{
+    font-size: 2.6875rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+  }
   .card-title{
     font-size: 1.375rem;
     line-height: 1.6875rem;
