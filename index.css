@@ -1,0 +1,156 @@
+
+main{
+  font-family: "Inter", sans-serif;
+}
+.nav-item .nav-link{
+  color: #18191F !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+.heading-text, .headline, .card-title, .headline-2, .headline-3, .number, .headline-4{
+  color:#4D4D4D !important;
+}
+
+.heading-text span, .headline-3 span, .card-title span, .headline-4 span{
+  color:#4CAF4F !important;
+  
+}
+.description, .card-text, .label, .number-2, .descript{
+  color:#717171;
+}
+.btn-2{
+  background-color: #4CAF4F !important;
+  border-radius: .375rem;
+}
+.dot {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background-color: #4CAF4F;
+  margin: 0 .3125rem;
+  opacity: 30%;
+}
+.dot-active{
+  background-color: #4CAF4F !important;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  margin: 0 .3125rem;
+}
+.dropbox-shadow{
+  box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+.dropbox-shadow-2{
+  box-shadow: 0px 0px 0px 0px rgba(171, 190, 209, 0.4);
+} 
+.details{
+  line-height: 50%;
+}
+.popover{
+  border-radius: .5rem;
+  background-color: #F5F7FA !important;
+  /* min-height: 9.375rem; */
+  max-width: 20rem;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4) ;
+  /* padding: 1rem; */
+}
+  .team .items{
+  color: #F5F7FA;
+  text-decoration: none;
+}
+#nav-space{
+  width:100%;
+  max-width: 76.875rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+
+  .btn-2{
+    font-size: .5rem !important;
+  }
+  .headline-2, .headline-3, .headline-4 ,.heading-text, .headline{
+    font-size: 1.5625rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  .card-title{
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading-text{
+    font-size: 3.125rem !important;
+  }
+  .btn-2{
+    font-size: 1rem !important;
+  }
+  
+}
+
+@media(min-width: 992px) {
+  .heading-text{
+    font-size: 4.6875rem !important;
+    line-height: 4.75rem !important;
+  }
+  .headline{
+    font-size: 2.0625rem;
+    line-height: 2.75rem;
+  }
+  .headline-2{
+    font-size: 2.375rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    letter-spacing: 0%;
+    
+  }
+  .headline-3{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+  }
+  .headline-4{
+    font-size: 2.6875rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+  }
+  
+  .card-title{
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
+  }
+  .card-text{
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
+  .description, .British{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0%;
+  }
+  .descript{
+    font-size: 1.075rem;
+    line-height: 1.625rem;
+  }
+   .number, .btn-number, .number-3{
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+   }
+  .number-2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+  }
+  .team .items{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2.8125rem;
+  }
+}
+
+  
+
