@@ -57,6 +57,9 @@ main{
   .team .items{
   color: #F5F7FA;
   text-decoration: none;
+  
+}
+ul{
   list-style: none;
 }
 #nav-space{
